@@ -64,4 +64,3 @@ while (isInMenu) {
   //END TASK
   endTask();
 }
-console.log(orderTime);
