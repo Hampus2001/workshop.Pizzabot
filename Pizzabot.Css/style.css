@@ -1,0 +1,163 @@
+body {
+  display: flex;
+  justify-items: center;
+  background-color: gray;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: monospace;
+}
+.container {
+  display: flex;
+  background-color: crimson;
+  flex-direction: column;
+  height: 800px;
+  width: 800px;
+  border: solid 30px lightsalmon;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: start;
+  box-sizing: border-box;
+}
+
+.containerTop {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: -150px;
+  height: 350px;
+  margin-top: 40px;
+}
+#greetigs {
+  background-color: white;
+  font-size: 2.5rem;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  padding: 10px;
+  width: 630px;
+  border-top: solid 5px rgb(172, 16, 47);
+  border-left: solid 5px rgb(172, 16, 47);
+  border-right: solid 5px rgb(172, 16, 47);
+  box-sizing: border-box;
+  margin-top: 40px;
+}
+
+#onOurMenu {
+  background-color: white;
+  color: black;
+  font-size: 2rem;
+  padding: 10px;
+  width: 630px;
+  margin-top: -20px;
+  border: solid 5px rgb(172, 16, 47);
+  box-sizing: border-box;
+}
+
+.conatinerBottom {
+  display: flex;
+  background-color: white;
+  box-sizing: border-box;
+  justify-content: start;
+  height: 28px;
+  width: 630px;
+}
+
+#makeAnOrder {
+  background-color: white;
+  height: 200px;
+  width: 630px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 20px;
+  opacity: 70%;
+  padding-top: 30px;
+  box-sizing: border-box;
+  border: solid 5px rgb(172, 16, 47);
+}
+
+input,
+select {
+  border: none;
+  width: 206px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  height: 28px;
+  box-sizing: border-box;
+}
+#choosePizza {
+  border-left: solid 5px rgb(172, 16, 47);
+}
+#priceBtn {
+  width: 210px;
+  height: 28px;
+  border: none;
+  border-right: 5px solid rgb(172, 16, 47);
+  cursor: pointer;
+  font-size: 1.5rem;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+#displayPrice {
+  background-color: white;
+  margin-top: 20px;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 630px;
+  border: solid 5px rgb(172, 16, 47);
+  box-sizing: border-box;
+}
+
+#orderNowButton {
+  background-color: white;
+  border: none;
+  width: 630px;
+  height: 150px;
+  font-size: 3rem;
+  padding: 20px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border: solid 5px rgb(172, 16, 47);
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.hiddenUntilOrdered {
+  display: flex;
+  background-color: crimson;
+  flex-direction: column;
+  height: 800px;
+  width: 800px;
+  border: solid 30px lightsalmon;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+#thankYouForOrdering {
+  background-color: white;
+  color: black;
+  font-size: 3rem;
+  text-align: center;
+  width: 630px;
+  border: solid 5px rgb(172, 16, 47);
+  box-sizing: border-box;
+}
+
+.backgroundCircle {
+  display: flex;
+  background-color: rgb(109, 11, 31);
+  border: 5px solid rgb(87, 9, 26);
+  border-radius: 50%;
+  height: 650px;
+  width: 650px;
+  align-items: center;
+  justify-content: center;
+}
+
+.hideButton {
+  display: none;
+}

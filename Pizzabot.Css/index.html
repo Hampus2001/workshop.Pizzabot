@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizzabot</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="containerTop">
+        <h1 id="greetigs">Hey! Happy to serve your pizza.</h1>
+        <h2 id="onOurMenu">
+          On our menu we have: <br />
+          Vegetarian Pizza, Hawaiian Pizza and Pepperoni Pizza <br />
+          Price is 80 kr per pizza.
+        </h2>
+      </div>
+      <div class="containerBottom">
+        <select id="choosePizza">
+          <option value="">Choose Pizza</option>
+          <option value="Vegetarian Pizza">Vegetarian Pizza</option>
+          <option value="Hawaiian Pizza">Hawaiian Pizza</option>
+          <option value="Pepperoni Pizza">Pepperoni Pizza</option>
+        </select>
+        <select id="chooseAmount">
+          <option value="0">Choose Amount</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+
+        <button id="priceBtn">Calculate Price</button>
+      </div>
+      <div id="makeAnOrder">Make an order to continue</div>
+      <div id="displayPrice" class="hideButton"></div>
+
+      <button id="orderNowButton" class="hideButton">Order Now!</button>
+    </div>
+    <div class="hiddenUntilOrdered hideButton">
+      <div class="backgroundCircle hideButton">
+        <div id="thankYouForOrdering" class="hideButton"></div>
+      </div>
+    </div>
+
+    <script src="code.js"></script>
+  </body>
+</html>
